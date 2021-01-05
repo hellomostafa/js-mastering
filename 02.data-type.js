@@ -17,6 +17,6 @@
 
 //## Non Primitive
 1. Array 
-2. Object 
-3. function 
+2. Object. 
+3. function. 
 
