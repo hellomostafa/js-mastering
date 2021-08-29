@@ -21,3 +21,4 @@ let primeNumber = n => {
 }
 const result = primeNumber(2)
 console.log(result)
+
