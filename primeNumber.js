@@ -19,5 +19,5 @@ let primeNumber = n => {
     }
     return 'prime number'
 }
-const result = primeNumber(2);
-console.log(result);
+const result = primeNumber(2)
+console.log(result)
