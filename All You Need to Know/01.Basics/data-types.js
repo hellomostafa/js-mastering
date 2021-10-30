@@ -8,3 +8,8 @@ Data Type
      - Boolean
      - undefined
      - Null
+
+    * Object
+     - Array
+     - Object
+     - Function
