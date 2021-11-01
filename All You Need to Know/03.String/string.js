@@ -15,4 +15,18 @@ var j = z.substr(5)
 
 
 // every word to array
-console.log(z.split(' '))
+//console.log(z.split(''))
+
+//console.log(z.length)
+
+var length = 0;
+
+while(true){
+    if(z.charAt(length) == ''){
+        break;
+    }else {
+        length++
+    }
+}
+
+console.log(length)
