@@ -19,5 +19,11 @@ var obj = {
 
 for(var i in obj){
     //console.log(i)
-    console.log(i + ': ' + obj[i])
+    //console.log(i + ': ' + obj[i])
 }
+
+// console.log(Object.values(obj))
+// console.log(Object.keys(obj))
+// console.log(Object.entries(obj))
+
+var obj2 = o
