@@ -47,7 +47,11 @@ var arr = {
   totalBilling: 200
 }
 
-for(var i in arr.more){
-    console.log(i)
-    // console.log(i + ': ' + obj[i])
-}
+// for(var i in arr.more){
+//     console.log(i)
+//     // console.log(i + ': ' + obj[i])
+// }
+
+var newOne = Object.values(arr.more)
+//console.log(Object.keys(arr.more))
+console.log(newOne)
