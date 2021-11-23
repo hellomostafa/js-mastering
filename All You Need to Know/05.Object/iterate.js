@@ -26,4 +26,28 @@ for(var i in obj){
 // console.log(Object.keys(obj))
 // console.log(Object.entries(obj))
 
-var obj2 = o
+
+
+var arr = {
+  more: {
+    0: {
+      type: "ship",
+      amount: 20
+      },
+    1: {
+      type: "me",
+      amount: 30
+      },
+    2: {
+      type: 'you',
+      amount: 50
+    }
+  },
+  totalAmount: 300,
+  totalBilling: 200
+}
+
+for(var i in arr.more){
+    console.log(i)
+    // console.log(i + ': ' + obj[i])
+}
