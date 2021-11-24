@@ -20,3 +20,4 @@ function sumOfArray(arr){
 sumOfArray(arr1)
 sumOfArray(arr2)
 sumOfArray(arr3)
+sumOfArray(arr3)
