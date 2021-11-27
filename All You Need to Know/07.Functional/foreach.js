@@ -18,3 +18,9 @@ function forEach(arr, cb){
 forEach(arr, function(value){
     console.log(value)
 })
+
+arr.forEach(function(value, index, arr){
+    arr[index] = value + 5
+})
+
+console.log(arr)
