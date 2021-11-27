@@ -11,4 +11,6 @@ function sum(a,b){
     return a + b;
 }
 
-console.log(sample(5, 8))
+var result = sample(5, 8, sum)
+
+console.log(result)
