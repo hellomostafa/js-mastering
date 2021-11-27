@@ -20,3 +20,23 @@ function myFilter(arr){
 }
 
 console.log(myFilter(arr))
+
+// using callBack
+
+function myFilterTwo(arr, cb){
+    var newArr = []
+    for(var i = 0; i < arr.length; i++){
+        if(cb(arr[i], i, arr)){
+            newArr.push(arr[i])
+        }
+    }
+    return newArr
+}
+
+console.log(myFilterTwo(arr, function(value){
+    return value % 2 === 0
+}))
+
+console.log(myFilterTwo(arr, function(value){
+    return value % 2 === 1
+}))
