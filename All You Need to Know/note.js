@@ -2,7 +2,7 @@
 
 
 /*
-Functional Chapter
+Functional Chapter - Most important to Learn
 Scope & Closure
 
 
