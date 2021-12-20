@@ -21,6 +21,7 @@ function myFilter(arr){
 
 console.log(myFilter(arr))
 
+
 // using callBack
 
 function myFilterTwo(arr, cb){
